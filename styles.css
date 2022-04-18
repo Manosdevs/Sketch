@@ -2,11 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: 0.25s;
 }
 
+.cont2 {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin-top: 1em;
+    
+   
+}
 
-
-#container {
+.cont {
     align-items: center;
     justify-content: center;
     display: grid;
@@ -34,4 +42,12 @@
 
 .blue {
     background-color: blue;
+}
+
+#Switch {
+    border: 1px solid black;
+}
+
+.btn {
+    margin-top: 1rem;
 }
