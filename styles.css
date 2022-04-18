@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     transition: 0.25s;
-    background-color:rgb(173, 97, 245);
+    
 }
 
 :root {
@@ -89,3 +89,10 @@
     width: 5rem;
     text-align: center;
 } 
+
+body {
+    background-image:url("fujipng");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

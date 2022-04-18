@@ -6,6 +6,7 @@ const clear = document.querySelector('.btn-dark');
 const stc = document.body;
 const go = document.getElementById('go');
 const btn = document.querySelectorAll('.clr');
+const scuffed = document.querySelector('.btn-info');
 
 let prevrows = 16;
 let prevcols = 16;
@@ -76,7 +77,11 @@ btn.forEach(elem => elem.addEventListener('click', function(e){
 
 stc.addEventListener('keypress', () => {
     paint = !paint;
-    console.log(paint);
+    
 });
 
+scuffed.addEventListener('click', () => {
+    paint = !paint;
+
+});
  
